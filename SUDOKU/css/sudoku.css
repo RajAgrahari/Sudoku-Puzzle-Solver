@@ -1,0 +1,73 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: rgb(197, 200, 197);
+}
+hr{
+    width: 500px;
+}
+#errors{
+    color:coral;
+}
+#head{
+    font-family: 'Permanent Marker', cursive;
+}
+#board{
+    width:450px;
+    height:450px;
+    /* background-color: yellow; */
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.tile{
+    width:47px;
+    height:47px;
+    border: 1.5px solid rgb(51, 50, 50);
+    border-radius: 2px;
+    font-size : 20px;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.tile:hover{
+    background-color: rgb(96, 209, 96);
+    cursor: pointer;
+}
+#digits{
+    width: 450px;
+    height: 50px;
+    /* background-color: yellow; */
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.number{
+    width:44px;
+    height:44px;
+    margin: 2px;
+    border: 1px solid black;
+    border-radius: 2px;
+    font-size : 20px;
+    font-weight: bold;
+    /* justify-content: center;
+    align-items: center; */
+}
+.number-selected{
+    background-color:rgb(8, 8, 8);
+    color:white;
+}
+.tile-start{
+    background-color: rgb(127, 124, 124);
+}
+.tile-start:hover{
+    background-color: rgb(229, 80, 80);
+}
+.horizontal-border{
+    border-bottom: 1px solid black;
+}
+.vertical-right{
+    border-right: 1px solid black;
+}
